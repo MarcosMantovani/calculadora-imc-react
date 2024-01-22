@@ -1,0 +1,22 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.formLabel {
+    font-size: 16px;
+}
+
+.formInput {
+    width: 100px;
+}
+
+.formAnswer {
+    font-weight: bold;
+}
